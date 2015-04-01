@@ -4,7 +4,7 @@
       xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
                     http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
 
-    <entity name="RbacUserDoctrineOrm\Entity\Role" table="role">
+    <entity name="RbacUserDoctrineOrm\Entity\Role" table="roles">
 
         <id name="id" type="integer" column="id">
             <generator strategy="AUTO" />
