@@ -43,13 +43,13 @@ return [
 				'credential_property' => 'password',
 			],
 		],
+	'data-fixture' => [
+    		'RbacUserDoctrineOrmFixture' => __DIR__ . '/../src/RbacUserDoctrineOrm/Fixture',
+    	],
     ],
     'view_manager' => [
         'template_map' => [
             'error/403' => __DIR__ . '/../view/error/403.phtml',
         ]
     ],
-    'data-fixture' => [
-    	'RbacUserDoctrineOrmFixture' => __DIR__ . '/../src/RbacUserDoctrineOrm/Fixture',
-    ]
 ];
