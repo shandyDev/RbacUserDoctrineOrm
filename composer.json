@@ -1,5 +1,5 @@
 {
-	"name" : "shandyDev/rbac-user-doctrine-orm",
+	"name" : "shandydev/rbac-user-doctrine-orm",
 	"description" : "A module that joins zfc-rbac & zfc-user in a pre-configured doctrine ORM based module",
 	"type" : "library",
 	"authors" : [{
