@@ -4,7 +4,7 @@
                   xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
                   http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
 
-    <entity name="RbacUserDoctrineOrm\Entity\User" table="user">
+    <entity name="RbacUserDoctrineOrm\Entity\User" table="users">
 
         <many-to-many field="roles" target-entity="Role" inversed-by="users">
             <join-table name="user_rbac_role">
