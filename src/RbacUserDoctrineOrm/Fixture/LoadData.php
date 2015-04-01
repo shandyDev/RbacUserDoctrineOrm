@@ -13,7 +13,6 @@ class LoadData implements FixtureInterface
 	public function load(ObjectManager $manager)
 	{
 		$guest = new Role('guest');
-
 		$manager->persist($guest);
 		$manager->flush();
 	}
